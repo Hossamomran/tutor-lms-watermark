@@ -1,0 +1,23 @@
+#watermark {
+    position: absolute;
+    font-size: 18px;
+    color: grey;
+    z-index: 1000000 !important;
+    pointer-events: none;
+}
+
+.tutor-video-player {
+    position: relative;
+}
+
+video:-webkit-full-screen,
+video:-moz-full-screen,
+video:-ms-fullscreen,
+video:fullscreen {
+    z-index: 1 !important;
+}
+
+#watermark.fullscreen {
+    position: fixed;
+    z-index: 1000000 !important;
+}
